@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;700;800&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "surface-container-high": "#1f1f23",
+              "inverse-on-surface": "#555458",
+              "tertiary-fixed": "#ff8cbe",
+              "on-surface": "#f0edf1",
+              "secondary-fixed-dim": "#d7d4d3",
+              "secondary-dim": "#d7d4d3",
+              "tertiary-fixed-dim": "#f27db1",
+              "tertiary-dim": "#ef7aae",
+              "secondary": "#e5e2e1",
+              "on-tertiary-fixed": "#37001e",
+              "error": "#ff6e84",
+              "error-container": "#a70138",
+              "background": "#0e0e11",
+              "on-secondary": "#525151",
+              "inverse-primary": "#5417fc",
+              "secondary-fixed": "#e5e2e1",
+              "surface-container-highest": "#25252a",
+              "on-error-container": "#ffb2b9",
+              "on-primary-fixed": "#000000",
+              "on-secondary-fixed": "#403f3f",
+              "outline": "#767579",
+              "primary": "#afa2ff",
+              "on-surface-variant": "#acaaae",
+              "inverse-surface": "#fcf8fd",
+              "on-tertiary-fixed-variant": "#6e1044",
+              "on-background": "#f0edf1",
+              "primary-container": "#a292ff",
+              "on-tertiary-container": "#600039",
+              "on-error": "#490013",
+              "surface-variant": "#25252a",
+              "on-primary-container": "#210077",
+              "surface-bright": "#2c2c30",
+              "outline-variant": "#48474b",
+              "primary-fixed-dim": "#9481ff",
+              "on-primary": "#2c0097",
+              "error-dim": "#d73357",
+              "on-primary-fixed-variant": "#2a0090",
+              "tertiary": "#ff9ec6",
+              "surface-container-lowest": "#000000",
+              "surface": "#0e0e11",
+              "on-tertiary": "#6e0f44",
+              "on-secondary-fixed-variant": "#5c5b5b",
+              "primary-fixed": "#a292ff",
+              "surface-dim": "#0e0e11",
+              "primary-dim": "#7456ff",
+              "surface-container-low": "#131316",
+              "surface-container": "#19191d",
+              "secondary-container": "#474646",
+              "tertiary-container": "#ff87bc",
+              "surface-tint": "#afa2ff",
+              "on-secondary-container": "#d2d0cf"
+            },
+            fontFamily: {
+              "headline": ["Manrope"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        body {
+            background-color: #0e0e11;
+            color: #f0edf1;
+            overflow-x: hidden;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="font-body selection:bg-primary selection:text-on-primary">
+<!-- Top Navigation Shell -->
+<nav class="bg-transparent backdrop-blur-xl dark:bg-zinc-950/60 docked full-width top-0 sticky flex justify-between items-center w-full px-10 py-6 max-w-[1440px] mx-auto z-50 no-border tonal-shift">
+<div class="text-2xl font-black tracking-tighter text-[#f0edf1] font-headline">CURATOR</div>
+<div class="hidden md:flex items-center space-x-12">
+<a class="text-[#afa2ff] font-bold border-b-2 border-[#afa2ff] pb-1 font-['Manrope'] tracking-tight text-lg" href="#">Home</a>
+<a class="text-[#f0edf1]/70 hover:text-[#f0edf1] transition-colors font-['Manrope'] tracking-tight text-lg" href="#">Works</a>
+<a class="text-[#f0edf1]/70 hover:text-[#f0edf1] transition-colors font-['Manrope'] tracking-tight text-lg" href="#">Services</a>
+<a class="text-[#f0edf1]/70 hover:text-[#f0edf1] transition-colors font-['Manrope'] tracking-tight text-lg" href="#">Pricing</a>
+</div>
+<div class="flex items-center space-x-6">
+<button class="text-[#f0edf1]/70 hover:text-primary transition-all duration-300 font-label text-sm uppercase tracking-widest">Login</button>
+<button class="bg-primary text-on-primary px-8 py-3 rounded-full font-bold hover:scale-95 transition-transform duration-200">Get Started</button>
+</div>
+</nav>
+<!-- Hero Section -->
+<header class="relative min-h-screen flex flex-col items-center justify-center px-6 pt-20">
+<div class="max-w-6xl w-full text-center space-y-12">
+<h1 class="font-headline text-5xl md:text-[6rem] leading-[1.1] font-extrabold tracking-tighter text-on-surface">
+                We don't create content.<br/>
+<span class="text-primary italic">We create impact.</span>
+</h1>
+<p class="font-body text-xl md:text-2xl text-on-surface-variant max-w-2xl mx-auto font-light leading-relaxed">
+                Elevating digital narratives through architectural design and high-performance strategy.
+            </p>
+</div>
+<!-- Subtle Abstract Element -->
+<div class="mt-24 w-full max-w-4xl aspect-[21/9] rounded-xl overflow-hidden grayscale opacity-40 hover:grayscale-0 transition-all duration-1000">
+<img alt="abstract 3d element" class="w-full h-full object-cover" data-alt="singular high-quality abstract 3D floating chrome wave in a dark void with soft purple rim lighting and high-end reflections" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBzVh1I5TkuJQ602aZjebfcmf4WFFn5s1U_xJx4YXgdArCoJMWKOXz6EQ1yiRHFWUzsttd9npD7wmYSwQRMeZwK8nFLnYjUTMxgkEUB2Z3gnS_hMf68tNWqbgdggyzBNDMq-MkAxnBE3CKsWa84sLtbpZpf8cfFLappV2RJthC4IkT6lcNO4QCt7slyFs04p8GRUQmVnCOj4zUBb5XBrYiU_BY3_L-yL-alZfMCj_4zAVRb9Z0fz4U1KU8Cun0_4P2oXxZIOYsm5KM7"/>
+</div>
+</header>
+<!-- Bold Statement 1 -->
+<section class="py-40 md:py-80 px-10">
+<div class="max-w-7xl mx-auto flex justify-start">
+<h2 class="font-headline text-4xl md:text-8xl font-black max-w-4xl leading-none tracking-tighter text-on-surface">
+                We build brands that people <span class="text-outline-variant">remember.</span>
+</h2>
+</div>
+</section>
+<!-- Counters Section -->
+<section class="py-32 bg-surface-container-low">
+<div class="max-w-7xl mx-auto px-10">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-20">
+<div class="space-y-4">
+<span class="font-headline text-7xl md:text-8xl font-extralight text-primary">500+</span>
+<p class="font-label uppercase tracking-[0.3em] text-on-surface-variant text-sm">Projects Delivered</p>
+</div>
+<div class="space-y-4">
+<span class="font-headline text-7xl md:text-8xl font-extralight text-primary">10M+</span>
+<p class="font-label uppercase tracking-[0.3em] text-on-surface-variant text-sm">Global Views</p>
+</div>
+<div class="space-y-4">
+<span class="font-headline text-7xl md:text-8xl font-extralight text-primary">100+</span>
+<p class="font-label uppercase tracking-[0.3em] text-on-surface-variant text-sm">Active Brands</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Bold Statement 2 -->
+<section class="py-40 md:py-80 px-10">
+<div class="max-w-7xl mx-auto flex justify-end text-right">
+<h2 class="font-headline text-4xl md:text-8xl font-black max-w-4xl leading-none tracking-tighter text-on-surface">
+                Content that performs, <span class="text-primary">not just exists.</span>
+</h2>
+</div>
+</section>
+<!-- Services Grid -->
+<section class="py-40 px-10 bg-surface">
+<div class="max-w-7xl mx-auto">
+<div class="flex flex-col md:flex-row justify-between items-baseline mb-32 border-b border-outline-variant/10 pb-12">
+<h3 class="font-headline text-5xl font-bold tracking-tight">Capabilities</h3>
+<p class="font-body text-on-surface-variant max-w-xs mt-6 md:mt-0">Refined solutions for the modern digital landscape.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+<div class="space-y-6 group">
+<div class="w-12 h-12 flex items-center justify-center rounded-lg bg-surface-container-highest text-primary group-hover:bg-primary group-hover:text-on-primary transition-all duration-300">
+<span class="material-symbols-outlined" data-icon="brush">brush</span>
+</div>
+<h4 class="font-headline text-2xl font-bold">Visual Identity</h4>
+<p class="text-on-surface-variant leading-relaxed">Crafting high-end aesthetics that define market leaders.</p>
+</div>
+<div class="space-y-6 group">
+<div class="w-12 h-12 flex items-center justify-center rounded-lg bg-surface-container-highest text-primary group-hover:bg-primary group-hover:text-on-primary transition-all duration-300">
+<span class="material-symbols-outlined" data-icon="videocam">videocam</span>
+</div>
+<h4 class="font-headline text-2xl font-bold">Content Strategy</h4>
+<p class="text-on-surface-variant leading-relaxed">Purpose-driven narrative architectures for scale.</p>
+</div>
+<div class="space-y-6 group">
+<div class="w-12 h-12 flex items-center justify-center rounded-lg bg-surface-container-highest text-primary group-hover:bg-primary group-hover:text-on-primary transition-all duration-300">
+<span class="material-symbols-outlined" data-icon="monitoring">monitoring</span>
+</div>
+<h4 class="font-headline text-2xl font-bold">Growth Labs</h4>
+<p class="text-on-surface-variant leading-relaxed">Aggressive performance metrics backed by data.</p>
+</div>
+<div class="space-y-6 group">
+<div class="w-12 h-12 flex items-center justify-center rounded-lg bg-surface-container-highest text-primary group-hover:bg-primary group-hover:text-on-primary transition-all duration-300">
+<span class="material-symbols-outlined" data-icon="cloud_done">cloud_done</span>
+</div>
+<h4 class="font-headline text-2xl font-bold">Distribution</h4>
+<p class="text-on-surface-variant leading-relaxed">Securing eyes where they matter the most.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Final CTA -->
+<section class="py-60 px-10 text-center">
+<div class="max-w-4xl mx-auto space-y-12">
+<h2 class="font-headline text-6xl md:text-8xl font-extrabold tracking-tighter">Ready to evolve?</h2>
+<div class="pt-8">
+<button class="bg-primary text-on-primary px-16 py-6 rounded-full text-xl font-bold hover:scale-105 active:scale-95 transition-all duration-300 shadow-2xl shadow-primary/20">
+                    Start Your Project
+                </button>
+</div>
+<p class="font-label text-on-surface-variant text-xs uppercase tracking-widest pt-12">Private consultations by appointment only</p>
+</div>
+</section>
+<!-- Footer Shell -->
+<footer class="bg-[#0e0e11] full-width py-12 flex flex-col items-center justify-center space-y-8 w-full border-t border-[#48474b]/10">
+<div class="flex flex-wrap justify-center gap-12 text-[#f0edf1]/40 uppercase tracking-widest text-[10px] font-['Inter']">
+<a class="hover:text-[#afa2ff] transition-colors" href="#">Privacy</a>
+<a class="hover:text-[#afa2ff] transition-colors" href="#">Terms</a>
+<a class="hover:text-[#afa2ff] transition-colors" href="#">Contact</a>
+<a class="hover:text-[#afa2ff] transition-colors" href="#">Twitter</a>
+</div>
+<div class="text-[#f0edf1]/40 text-[10px] uppercase tracking-[0.2em] font-['Inter']">
+            © 2024 CURATOR DIGITAL. ALL RIGHTS RESERVED.
+        </div>
+</footer>
+</body></html>
