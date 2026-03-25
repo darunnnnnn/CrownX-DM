@@ -14,7 +14,7 @@ export function renderHome(container) {
         </p>
       </div>
       <div class="hero-image-wrap reveal delay-3">
-        <img alt="abstract 3d element" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBzVh1I5TkuJQ602aZjebfcmf4WFFn5s1U_xJx4YXgdArCoJMWKOXz6EQ1yiRHFWUzsttd9npD7wmYSwQRMeZwK8nFLnYjUTMxgkEUB2Z3gnS_hMf68tNWqbgdggyzBNDMq-MkAxnBE3CKsWa84sLtbpZpf8cfFLappV2RJthC4IkT6lcNO4QCt7slyFs04p8GRUQmVnCOj4zUBb5XBrYiU_BY3_L-yL-alZfMCj_4zAVRb9Z0fz4U1KU8Cun0_4P2oXxZIOYsm5KM7"/>
+        <iframe src="https://my.spline.design/chips-mi0XsXCT7QZqOC9NVraN6uYi/" frameborder="0" width="100%" height="100%" style="border:none;" allow="autoplay" loading="lazy"></iframe>
       </div>
     </header>
 
