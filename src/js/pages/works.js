@@ -21,9 +21,10 @@ export function renderWorks(container) {
 
   function renderGrid() {
     const grid = container.querySelector('.works-grid');
+    grid.classList.toggle('portrait', activeFilter === 'Talking Head');
     const filtered = getFiltered();
     grid.innerHTML = filtered.map((p, i) => `
-      <div class="work-card reveal delay-${(i % 4) + 1}" data-id="${p.id}" style="background: linear-gradient(135deg, ${p.color}22, ${p.color}08);">
+      <div class="work-card reveal delay-${(i % 4) + 1}" data-id="${p.id}" style="background: linear-gradient(135deg, ${p.color}22, ${p.color}08); ${p.category === 'Talking Head' ? 'aspect-ratio:9/16;' : ''}">
         ${p.thumb
           ? `<img src="${p.thumb}" class="work-thumb" alt="${p.title}"/>`
           : `<div class="work-thumb-placeholder" style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-size:3rem;opacity:0.15;">🎬</div>`
@@ -112,6 +113,14 @@ export function renderWorks(container) {
 
   // Modal close
   const modal = container.querySelector('.modal-overlay');
-  container.querySelector('#modalClose').addEventListener('click', () => modal.classList.remove('active'));
-  modal.addEventListener('click', (e) => { if (e.target === modal) modal.classList.remove('active'); });
+  container.querySelector('#modalClose').addEventListener('click', () => {
+    modal.classList.remove('active');
+    modal.querySelector('.modal-video').innerHTML = '';
+  });
+  modal.addEventListener('click', (e) => {
+    if (e.target === modal) {
+      modal.classList.remove('active');
+      modal.querySelector('.modal-video').innerHTML = '';
+    }
+  });
 }

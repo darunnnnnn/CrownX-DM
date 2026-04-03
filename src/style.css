@@ -543,6 +543,7 @@ body:has(.btn:hover, a:hover, button:hover) .cursor-ring {
   border-color: var(--primary);
 }
 .works-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 24px; }
+.works-grid.portrait { grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
 .work-card {
   border-radius: 2rem; overflow: hidden; position: relative;
   cursor: pointer; aspect-ratio: 16/10; background: var(--surface-container);
