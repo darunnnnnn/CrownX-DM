@@ -744,11 +744,12 @@ body:has(.btn:hover, a:hover, button:hover) .cursor-ring {
   .nav-container { padding: 0 20px; height: 64px; }
   .nav-logo { font-size: 1.2rem; }
   .nav-links {
-    display: none; position: fixed; top: 64px; left: 0; right: 0;
+    position: fixed; top: 64px; left: 0; right: 0;
+    transform: none;
     background: rgba(14,14,17,0.97); backdrop-filter: blur(24px);
     flex-direction: column; padding: 24px 24px 32px; gap: 6px;
     border-bottom: 1px solid rgba(72,71,75,0.15);
-    z-index: 100;
+    z-index: 100; display: none;
   }
   .nav-links.open { display: flex; }
   .nav-link { font-size: 1rem; padding: 12px 0; }
