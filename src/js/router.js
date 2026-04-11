@@ -2,13 +2,15 @@ import { renderHome } from './pages/home.js';
 import { renderWorks } from './pages/works.js';
 import { renderCredits } from './pages/credits.js';
 import { renderDashboard } from './pages/dashboard.js';
+import { renderComingSoon } from './pages/comingsoon.js';
 import { initAnimations } from './animations.js';
 
 const routes = {
   '/': renderHome,
   '/works': renderWorks,
   '/credits': renderCredits,
-  '/dashboard': renderDashboard,
+  '/dashboard': renderComingSoon,
+  '/dashboard-preview': renderDashboard,
 };
 
 let currentPath = '';
