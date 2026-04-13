@@ -94,10 +94,6 @@ export function renderWorks(container) {
       <button class="modal-close" id="modalClose">✕</button>
     </div>
 
-    <footer class="footer">
-      <div class="footer-brand"><span class="logo-crown">Crown</span><span class="logo-x" style="background:var(--gradient-primary);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">X</span></div>
-      <p>© 2026 CrownX Digital Agency. All rights reserved.</p>
-    </footer>
   `;
 
   renderGrid();

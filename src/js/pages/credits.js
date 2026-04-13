@@ -11,121 +11,82 @@ export function renderCredits(container) {
   container.innerHTML = `
     <!-- Credit Hero -->
     <section class="section credits-hero">
-      <div class="section-label reveal">✦ Credit System</div>
-      <h2 class="section-title reveal delay-1">Power your vision with<br/><span class="gradient-text">CrownX Credits</span></h2>
-      <p class="section-subtitle reveal delay-2" style="margin: 0 auto;">Purchase credits, request premium creative services, and track everything from one dashboard.</p>
-      <div class="credit-balance-card reveal delay-3">
-        <div>
-          <div class="credit-balance-value gradient-text">120</div>
-          <div class="credit-balance-label">Available Credits</div>
-        </div>
-        <a href="#" class="btn btn-primary">Buy More Credits</a>
-      </div>
+      <div class="section-label reveal">✦ Pricing</div>
+      <h2 class="section-title reveal delay-1">Simple, transparent<br/><span class="gradient-text">pricing</span></h2>
+      <p class="section-subtitle reveal delay-2" style="margin: 0 auto;">Choose the plan that fits your growth stage. Every plan includes a strategy call to get you started.</p>
     </section>
 
     <!-- Packages -->
     <section class="section" style="padding-top: 0;">
-      <div class="section-label reveal">✦ Credit Packages</div>
-      <h2 class="section-title reveal delay-1">Choose your plan</h2>
       <div class="packages-grid">
-        <div class="glass-card package-card reveal delay-1">
-          <div class="package-credits">50 <span>credits</span></div>
-          <div class="package-price">$99 <span>/ one-time</span></div>
+
+        <!-- ESSENTIAL -->
+        <div class="package-card reveal delay-1">
+          <div class="package-name">Essential</div>
+          <div class="package-tagline">Starter Growth System</div>
+          <div class="package-price">$799 <span>/ month</span></div>
+          <p class="package-desc">For creators who want consistency without full-scale growth ops.</p>
           <ul class="package-features">
-            <li>2–3 Instagram Reels</li>
-            <li>Basic revisions included</li>
-            <li>48-hour turnaround</li>
-            <li>Standard support</li>
+            <li class="included">Podcast video editing (4 episodes/month)</li>
+            <li class="included">12 short-form clips (Reels/Shorts)</li>
+            <li class="included">Basic content scheduling</li>
+            <li class="included">Light strategy guidance (monthly call)</li>
+            <li class="included">Basic analytics report (monthly)</li>
+            <li class="included">2 revisions per video</li>
+            <li class="included">Turnaround: 72 hours</li>
+            <li class="not-included">Full account management</li>
+            <li class="not-included">Advanced growth strategy</li>
+            <li class="not-included">Dedicated manager</li>
           </ul>
-          <button class="btn btn-secondary" style="width:100%;">Select Plan</button>
+          <a href="https://calendly.com/crownx-enquiry/30min" target="_blank" class="btn btn-secondary" style="width:100%;">Get Started</a>
         </div>
-        <div class="glass-card package-card popular reveal delay-2">
+
+        <!-- PREMIUM -->
+        <div class="package-card popular reveal delay-2">
           <div class="package-badge">Most Popular</div>
-          <div class="package-credits">100 <span>credits</span></div>
-          <div class="package-price">$179 <span>/ one-time</span></div>
+          <div class="package-name">Premium</div>
+          <div class="package-tagline">Growth Engine</div>
+          <div class="package-price">$1,199 <span>/ month</span></div>
+          <p class="package-desc">For serious podcasters who want to grow audience + brand.</p>
           <ul class="package-features">
-            <li>5–6 video projects</li>
-            <li>Unlimited revisions</li>
-            <li>24-hour priority turnaround</li>
-            <li>Dedicated account manager</li>
+            <li class="included">Podcast editing (8 episodes/month)</li>
+            <li class="included">24 short-form clips</li>
+            <li class="included">Production assistance (virtual guidance)</li>
+            <li class="included">Platform-specific growth strategy</li>
+            <li class="included">Content calendar + scheduling</li>
+            <li class="included">Bi-weekly strategy calls</li>
+            <li class="included">Advanced analytics + insights</li>
+            <li class="included">Dedicated account manager</li>
+            <li class="included">Unlimited revisions</li>
+            <li class="included">Turnaround: 48 hours</li>
           </ul>
-          <button class="btn btn-primary" style="width:100%;">Select Plan</button>
+          <a href="https://calendly.com/crownx-enquiry/30min" target="_blank" class="btn btn-primary" style="width:100%;">Get Started</a>
         </div>
-        <div class="glass-card package-card reveal delay-3">
-          <div class="package-credits">250 <span>credits</span></div>
-          <div class="package-price">$399 <span>/ one-time</span></div>
+
+        <!-- GOLD -->
+        <div class="package-card reveal delay-3">
+          <div class="package-name">Gold</div>
+          <div class="package-tagline">Full Podcast Growth System</div>
+          <div class="package-price">$1,999 <span>/ month</span></div>
+          <p class="package-desc">For founders, brands, and serious creators who want end-to-end domination.</p>
           <ul class="package-features">
-            <li>12+ video projects</li>
-            <li>Unlimited revisions</li>
-            <li>Same-day turnaround</li>
-            <li>VIP concierge support</li>
+            <li class="included">Podcast editing (12–16 episodes/month)</li>
+            <li class="included">40+ short-form clips</li>
+            <li class="included">Full growth strategy + positioning</li>
+            <li class="included">Full content + distribution system (5 platforms)</li>
+            <li class="included">Posting + platform management</li>
+            <li class="included">Deep analytics + performance optimization</li>
+            <li class="included">Production consultation (remote guidance)</li>
+            <li class="included">Dedicated account manager + priority support</li>
+            <li class="included">Weekly strategy calls</li>
+            <li class="included">Unlimited revisions</li>
+            <li class="included">Turnaround: 24–36 hours</li>
           </ul>
-          <button class="btn btn-secondary" style="width:100%;">Select Plan</button>
+          <a href="https://calendly.com/crownx-enquiry/30min" target="_blank" class="btn btn-secondary" style="width:100%;">Get Started</a>
         </div>
+
       </div>
     </section>
 
-    <!-- Request Form -->
-    <section class="section request-section" style="padding-top: 0;">
-      <div class="works-header">
-        <div class="section-label reveal">✦ Make a Request</div>
-        <h2 class="section-title reveal delay-1">Request a <span class="gradient-text">creative service</span></h2>
-        <p class="section-subtitle reveal delay-2" style="margin: 0 auto;">Select a service type, describe your vision, and we'll handle the rest.</p>
-      </div>
-      <div class="request-form-wrap reveal delay-3">
-        <div class="form-group">
-          <label class="form-label">Type of Video</label>
-          <select class="form-select" id="serviceType">
-            <option value="">Select a service...</option>
-            <option value="instagram-reel">Instagram Reel</option>
-            <option value="video-ad">Video Ad (Meta / Google / TikTok)</option>
-            <option value="brand-video">Brand Storytelling Video</option>
-            <option value="social-content">Social Media Content Pack</option>
-            <option value="brand-identity">Brand Identity Package</option>
-            <option value="launch-campaign">Product Launch Campaign</option>
-          </select>
-        </div>
-        <div class="credit-cost-display" id="creditCostDisplay" style="display:none;">
-          <span class="cost-label">This request will cost</span>
-          <span class="cost-value" id="creditCostValue">0 credits</span>
-        </div>
-        <div class="form-group">
-          <label class="form-label">Project Description</label>
-          <textarea class="form-textarea" placeholder="Describe your vision, target audience, style references, and any specific requirements..."></textarea>
-        </div>
-        <div class="form-group">
-          <label class="form-label">Upload Reference Files (Optional)</label>
-          <div class="file-upload-area" id="fileUpload">
-            <p>📁 Drag & drop files here or click to browse</p>
-            <p style="margin-top: 6px; font-size: 0.8rem;">Supports images, videos, PDFs up to 50MB</p>
-          </div>
-        </div>
-        <button class="btn btn-primary btn-lg" style="width: 100%;">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
-            <line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/>
-          </svg>
-          Submit Request
-        </button>
-      </div>
-    </section>
-
-    <footer class="footer">
-      <div class="footer-brand"><span class="logo-crown">Crown</span><span class="logo-x" style="background:var(--gradient-primary);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">X</span></div>
-      <p>© 2026 CrownX Digital Agency. All rights reserved.</p>
-    </footer>
   `;
-
-  // Dynamic credit cost
-  const serviceSelect = container.querySelector('#serviceType');
-  const costDisplay = container.querySelector('#creditCostDisplay');
-  const costValue = container.querySelector('#creditCostValue');
-  serviceSelect.addEventListener('change', () => {
-    const cost = creditCosts[serviceSelect.value];
-    if (cost) {
-      costDisplay.style.display = 'flex';
-      costValue.textContent = cost + ' credits';
-    } else {
-      costDisplay.style.display = 'none';
-    }
-  });
 }

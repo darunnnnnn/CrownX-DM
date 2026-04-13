@@ -633,10 +633,16 @@ body:has(.btn:hover, a:hover, button:hover) .cursor-ring {
 }
 .package-credits { font-family: var(--font-headline); font-size: 3rem; font-weight: 900; margin: 16px 0 4px; }
 .package-credits span { font-size: 1rem; font-weight: 500; color: var(--on-surface-variant); }
+.package-name { font-family: var(--font-headline); font-size: 1.3rem; font-weight: 900; margin-bottom: 4px; }
+.package-tagline { font-family: var(--font-label); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--primary); margin-bottom: 16px; }
+.package-desc { font-size: 0.85rem; color: var(--on-surface-variant); line-height: 1.6; margin-bottom: 20px; }
 .package-price { font-size: 1.8rem; font-weight: 700; margin-bottom: 24px; }
 .package-price span { font-size: 0.9rem; color: var(--on-surface-variant); font-weight: 400; }
 .package-features { margin-bottom: 32px; }
-.package-features li { padding: 12px 0; font-size: 0.9rem; color: var(--on-surface-variant); }
+.package-features li { padding: 8px 0; font-size: 0.85rem; color: var(--on-surface-variant); display: flex; align-items: flex-start; gap: 8px; }
+.package-features li.included::before { content: '✓'; color: #10b981; font-weight: 700; flex-shrink: 0; }
+.package-features li.not-included { opacity: 0.4; }
+.package-features li.not-included::before { content: '✕'; color: var(--on-surface-variant); font-weight: 700; flex-shrink: 0; }
 
 /* Request Form */
 .request-section { margin-top: 80px; }
