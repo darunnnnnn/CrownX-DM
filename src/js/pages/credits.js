@@ -88,5 +88,38 @@ export function renderCredits(container) {
       </div>
     </section>
 
+    <!-- Differentiation -->
+    <section class="section diff-section" style="padding-top: 0; padding-bottom: 120px;">
+      <h2 class="diff-heading reveal">But, why would you<br/>want to work <span class="accent">with us?</span></h2>
+      <div class="diff-grid reveal delay-1">
+        <div class="diff-col">
+          <div class="diff-col-label">Other Agencies</div>
+          <div class="diff-card diff-bad">
+            <ul class="diff-list">
+              <li><span class="diff-icon bad">×</span>Slow, reactive communication</li>
+              <li><span class="diff-icon bad">×</span>Just editing, no real growth strategy</li>
+              <li><span class="diff-icon bad">×</span>One-platform focus (no real positioning)</li>
+              <li><span class="diff-icon bad">×</span>Generic, templated content styles</li>
+              <li><span class="diff-icon bad">×</span>No understanding of creator economy</li>
+              <li><span class="diff-icon bad">×</span>Outsourced, inconsistent quality</li>
+            </ul>
+          </div>
+        </div>
+        <div class="diff-col">
+          <div class="diff-col-label gradient-text" style="font-weight:900;">CrownX</div>
+          <div class="diff-card diff-good">
+            <ul class="diff-list">
+              <li><span class="diff-icon good">✓</span>Fast, proactive communication (we move with you)</li>
+              <li><span class="diff-icon good">✓</span>Strategy + execution (not just editing)</li>
+              <li><span class="diff-icon good">✓</span>Multi-platform growth (YouTube, LinkedIn, X, Instagram, TikTok, Substack, Bluesky)</li>
+              <li><span class="diff-icon good">✓</span>Content built for attention, retention, and virality</li>
+              <li><span class="diff-icon good">✓</span>Deep understanding of creators, podcasts, and tech space</li>
+              <li><span class="diff-icon good">✓</span>In-house creative team with performance focus</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
   `;
 }

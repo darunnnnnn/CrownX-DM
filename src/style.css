@@ -513,8 +513,55 @@ body:has(.btn:hover, a:hover, button:hover) .cursor-ring {
   color: rgba(240,237,241,0.4);
 }
 
-/* ============================================= */
-/* WORKS PAGE (Portfolio)                        */
+/* ===== DIFFERENTIATION ===== */
+.diff-section { text-align: center; }
+.diff-heading {
+  font-family: var(--font-headline);
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 900; letter-spacing: -0.03em; line-height: 1.1;
+  margin-bottom: 64px; color: var(--on-surface);
+}
+.diff-heading .accent {
+  color: var(--primary); font-style: italic;
+}
+.diff-grid {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 24px;
+  max-width: 960px; margin: 0 auto; text-align: left;
+}
+.diff-col-label {
+  font-family: var(--font-headline); font-size: 1.1rem;
+  font-weight: 600; color: var(--on-surface-variant);
+  margin-bottom: 16px; text-align: center;
+}
+.diff-card {
+  padding: 36px 32px; border-radius: 1.5rem;
+}
+.diff-bad {
+  background: rgba(255,255,255,0.02);
+  border: 1px solid rgba(255,255,255,0.07);
+}
+.diff-good {
+  background: linear-gradient(135deg, rgba(116,86,255,0.15) 0%, rgba(175,162,255,0.08) 100%);
+  border: 1px solid rgba(175,162,255,0.2);
+  box-shadow: 0 20px 60px rgba(116,86,255,0.12);
+}
+.diff-list { display: flex; flex-direction: column; gap: 20px; }
+.diff-list li {
+  display: flex; align-items: flex-start; gap: 14px;
+  font-family: var(--font-body); font-size: 0.9rem; line-height: 1.6;
+}
+.diff-bad .diff-list li { color: rgba(240,237,241,0.4); }
+.diff-good .diff-list li { color: rgba(240,237,241,0.9); font-weight: 500; }
+.diff-icon {
+  flex-shrink: 0; margin-top: 2px; font-size: 0.85rem; font-weight: 600;
+}
+.diff-icon.bad { color: rgba(240,237,241,0.3); }
+.diff-icon.good { color: var(--primary); }
+@media (max-width: 768px) {
+  .diff-grid { grid-template-columns: 1fr; }
+  .diff-card { padding: 28px 24px; }
+  .diff-heading { font-size: clamp(2rem, 7vw, 3rem); margin-bottom: 40px; }
+}
 /* ============================================= */
 .section { padding: 120px 40px; max-width: 1280px; margin: 0 auto; }
 .section-label {
