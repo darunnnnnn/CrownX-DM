@@ -88,6 +88,28 @@ export function renderCredits(container) {
       </div>
     </section>
 
+    <!-- Quick Action Cards -->
+    <section class="section" style="padding-top: 0; padding-bottom: 80px;">
+      <div class="quick-cards">
+        <div class="quick-card">
+          <div class="quick-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><rect x="2" y="7" width="15" height="10" rx="2"/><path d="M17 9l5-2v10l-5-2"/></svg>
+          </div>
+          <h3 class="quick-title">One-off Video <span style="text-decoration:line-through; color:var(--on-surface-variant); font-weight:400;">($199)</span><br/>Try for just <span class="gradient-text">$49.99</span></h3>
+          <p class="quick-desc">Not sure about the subscription?</p>
+          <a href="https://calendly.com/crownx-enquiry/30min" target="_blank" class="btn btn-secondary" style="width:100%; margin-top: auto;">Get your first video</a>
+        </div>
+        <div class="quick-card">
+          <div class="quick-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.22 1.18 2 2 0 012.18 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.72 6.72l1.06-1.06a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          </div>
+          <h3 class="quick-title">Book a call</h3>
+          <p class="quick-desc">Learn more about how CrownX works.</p>
+          <a href="https://calendly.com/crownx-enquiry/30min" target="_blank" class="btn btn-secondary" style="width:100%; margin-top: auto;">Book a call</a>
+        </div>
+      </div>
+    </section>
+
     <!-- Differentiation -->
     <section class="section diff-section" style="padding-top: 0; padding-bottom: 120px;">
       <h2 class="diff-heading reveal">But, why would you<br/>want to work <span class="accent">with us?</span></h2>
