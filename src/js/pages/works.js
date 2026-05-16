@@ -30,10 +30,10 @@ export function renderWorks(container) {
 
   function renderGrid() {
     const grid = container.querySelector('.works-grid');
-    grid.classList.toggle('portrait', activeFilter === 'Normal');
+    grid.classList.toggle('portrait', activeFilter === 'Normal' || activeFilter === 'Concept' || activeFilter === 'All');
     const filtered = getFiltered();
     grid.innerHTML = filtered.map((p, i) => `
-      <div class="work-card reveal delay-${(i % 4) + 1}" data-id="${p.id}" style="background: linear-gradient(135deg, ${p.color}22, ${p.color}08); ${p.category === 'Normal' ? 'aspect-ratio:9/16;' : ''}">
+      <div class="work-card reveal delay-${(i % 4) + 1}" data-id="${p.id}" style="background: linear-gradient(135deg, ${p.color}22, ${p.color}08); aspect-ratio:9/16;">
         ${p.thumb
           ? `<img src="${p.thumb}" class="work-thumb" alt="${p.title}"/>`
           : `<div class="work-thumb-placeholder" style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-size:3rem;opacity:0.15;">🎬</div>`
