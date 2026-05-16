@@ -70,8 +70,8 @@ export function renderWorks(container) {
     <section class="section" style="padding-top: calc(var(--nav-height) + 60px);">
       <div class="works-header">
         <div class="section-label reveal">✦ Our Work</div>
-        <h2 class="section-title reveal delay-1">Projects that<br/><span class="gradient-text">speak volumes</span></h2>
-        <p class="section-subtitle reveal delay-2" style="margin: 0 auto;">A curated selection of campaigns, brand films, and viral content we've crafted for forward-thinking brands.</p>
+        <h2 class="section-title reveal delay-1">Work that<br/><span class="gradient-text">speaks volumes</span></h2>
+        <p class="section-subtitle reveal delay-2" style="margin: 0 auto;">A curated selection of brand campaigns, story-driven content, and digital marketing work we've built for forward-thinking brands.</p>
         <div class="filter-bar reveal delay-3">
           ${categories.map(c => `<button class="filter-btn ${c === activeFilter ? 'active' : ''}" data-cat="${c}">${c}</button>`).join('')}
         </div>

@@ -6,11 +6,11 @@ export function renderHome(container) {
     <header class="hero" id="hero">
       <div class="hero-content reveal">
         <h1 class="hero-title">
-          Good podcasts exist.<br/>
-          <span class="accent">We get yours attention.</span>
+          Brands exist.<br/>
+          <span class="accent">We build their story.</span>
         </h1>
         <p class="hero-subtitle reveal delay-2">
-          Premium video-driven social media strategy for brands and creators at scale.
+          We don't just market — we craft curated experiences that turn brands into stories people remember and sales that actually grow.
         </p>
       </div>
       <div class="hero-image-wrap reveal delay-3">
@@ -22,7 +22,7 @@ export function renderHome(container) {
     <section class="bold-statement left">
       <div class="bold-statement-inner">
         <h2 class="reveal">
-          We build brands that people <span class="muted">remember.</span>
+          We don't replicate. <span class="muted">We build.</span>
         </h2>
       </div>
     </section>
@@ -32,15 +32,15 @@ export function renderHome(container) {
       <div class="counters-grid">
         <div class="counter-item reveal">
           <div class="counter-value" data-counter data-target="1000" data-suffix="+">0</div>
-          <div class="counter-label">Projects Delivered</div>
+          <div class="counter-label">Campaigns Delivered</div>
         </div>
         <div class="counter-item reveal delay-1">
           <div class="counter-value" data-counter data-target="200" data-suffix="M+">0</div>
-          <div class="counter-label">Global Views</div>
+          <div class="counter-label">Revenue Generated</div>
         </div>
         <div class="counter-item reveal delay-2">
           <div class="counter-value" data-counter data-target="100" data-suffix="+">0</div>
-          <div class="counter-label">Active Brands</div>
+          <div class="counter-label">Brands Scaled</div>
         </div>
       </div>
     </section>
@@ -49,7 +49,7 @@ export function renderHome(container) {
     <section class="bold-statement right">
       <div class="bold-statement-inner" style="display:flex;justify-content:flex-end;">
         <h2 class="reveal" style="text-align:right;max-width:900px;">
-          Content that performs, <span class="accent">not just exists.</span>
+          Stories that sell, <span class="accent">not just scroll.</span>
         </h2>
       </div>
     </section>
@@ -146,29 +146,29 @@ export function renderHome(container) {
             <div class="capability-icon">
               <span class="material-symbols-outlined">brush</span>
             </div>
-            <h4>Visual Identity</h4>
-            <p>Crafting high-end aesthetics that define market leaders.</p>
+            <h4>Brand Storytelling</h4>
+            <p>We build narratives around your brand that people connect with and remember.</p>
           </div>
           <div class="capability-card reveal delay-2">
             <div class="capability-icon">
               <span class="material-symbols-outlined">videocam</span>
             </div>
-            <h4>Content Strategy</h4>
-            <p>Purpose-driven narrative architectures for scale.</p>
+            <h4>Content & Social</h4>
+            <p>Curated content experiences built to drive engagement and real conversions.</p>
           </div>
           <div class="capability-card reveal delay-3">
             <div class="capability-icon">
               <span class="material-symbols-outlined">monitoring</span>
             </div>
-            <h4>Growth Labs</h4>
-            <p>Aggressive performance metrics backed by data.</p>
+            <h4>Sales Growth</h4>
+            <p>We don't just make content — we build systems that increase your revenue.</p>
           </div>
           <div class="capability-card reveal delay-4">
             <div class="capability-icon">
               <span class="material-symbols-outlined">cloud_done</span>
             </div>
-            <h4>Distribution</h4>
-            <p>Securing eyes where they matter the most.</p>
+            <h4>Paid & Organic Reach</h4>
+            <p>Getting your story in front of the right audience at the right time.</p>
           </div>
         </div>
       </div>
@@ -176,7 +176,7 @@ export function renderHome(container) {
 
     <!-- FINAL CTA -->
     <section class="final-cta">
-      <h2 class="reveal">Ready to evolve?</h2>
+      <h2 class="reveal">Ready to grow your brand?</h2>
       <div class="btn-wrap reveal delay-1">
         <a href="https://calendly.com/crownx-enquiry/30min" target="_blank" class="btn btn-primary btn-lg">Book Your Call</a>
       </div>
