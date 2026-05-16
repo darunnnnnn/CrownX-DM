@@ -1,16 +1,25 @@
 const projects = [
-  { id: 1, title: 'Talking Head #1', category: 'Talking Head', desc: 'High-impact talking head content crafted for maximum audience retention.', color: '#7c3aed', video: 'https://drive.google.com/file/d/1Mq8DgGqt3i5WsgQfpwr_ORvB--bLHipP/preview', thumb: 'https://drive.google.com/thumbnail?id=1Mq8DgGqt3i5WsgQfpwr_ORvB--bLHipP&sz=w800' },
-  { id: 2, title: 'Talking Head #2', category: 'Talking Head', desc: 'Engaging talking head video driving brand awareness and audience trust.', color: '#ec4899', video: 'https://drive.google.com/file/d/1tkBiIB_rM-OGAiepbRBKMsGpl4zDJaM-/preview', thumb: 'https://drive.google.com/thumbnail?id=1tkBiIB_rM-OGAiepbRBKMsGpl4zDJaM-&sz=w800' },
-  { id: 3, title: 'Talking Head #3', category: 'Talking Head', desc: 'Premium talking head production delivering authentic storytelling at scale.', color: '#06b6d4', video: 'https://drive.google.com/file/d/1PnpSuTnnHsftqGbIZYRUTR_JxjzmEY05/preview', thumb: 'https://drive.google.com/thumbnail?id=1PnpSuTnnHsftqGbIZYRUTR_JxjzmEY05&sz=w800' },
-  { id: 4, title: 'Talking Head #4', category: 'Talking Head', desc: 'Compelling talking head content built for conversion and credibility.', color: '#f59e0b', video: 'https://drive.google.com/file/d/1V8iaA7GddG5IoY81oMfV8vjKcSEmdp9v/preview', thumb: 'https://drive.google.com/thumbnail?id=1V8iaA7GddG5IoY81oMfV8vjKcSEmdp9v&sz=w800' },
-  { id: 5, title: 'Talking Head #5', category: 'Talking Head', desc: 'Viral short-form talking head content crafted for social media growth.', color: '#10b981', video: 'https://drive.google.com/file/d/1QcUDPFXdyzJx1YQua0pJDZCCFK2OMK5J/preview', thumb: 'https://drive.google.com/thumbnail?id=1QcUDPFXdyzJx1YQua0pJDZCCFK2OMK5J&sz=w800' },
-  { id: 6, title: 'Launch Vid', category: 'Launch Vids', desc: 'Multi-platform ad campaign for a SaaS startup achieving 340% ROAS within the first month.', color: '#3b82f6', video: 'https://drive.google.com/file/d/104dBD4oOOZ2ZUE37QoL0guYvhKKt-vqs/preview', thumb: 'https://drive.google.com/thumbnail?id=104dBD4oOOZ2ZUE37QoL0guYvhKKt-vqs&sz=w800' },
-  { id: 7, title: 'Trailer #1', category: 'Trailers', desc: 'A cinematic brand film for a luxury wellness brand, premiered at a global lifestyle summit.', color: '#8b5cf6', video: 'https://drive.google.com/file/d/17iq4xHYmBVJDiHZ1TxXNqSKholwT4AaR/preview', thumb: 'https://drive.google.com/thumbnail?id=17iq4xHYmBVJDiHZ1TxXNqSKholwT4AaR&sz=w800' },
-  { id: 8, title: 'Trailer #2', category: 'Trailers', desc: 'Complete social presence redesign for a fintech brand — 4x engagement growth in 90 days.', color: '#f59e0b', video: 'https://drive.google.com/file/d/1qWDHt-_4occmrma7AteALRmVUHe3d5s3/preview', thumb: 'https://drive.google.com/thumbnail?id=1qWDHt-_4occmrma7AteALRmVUHe3d5s3&sz=w800' },
-  { id: 9, title: 'Trailer #3', category: 'Trailers', desc: 'A high-impact cinematic trailer crafted for maximum audience engagement.', color: '#06b6d4', video: 'https://drive.google.com/file/d/1p7eFy8GT3PLYExd4OUXV3ghQOm21RWVL/preview', thumb: 'https://drive.google.com/thumbnail?id=1p7eFy8GT3PLYExd4OUXV3ghQOm21RWVL&sz=w800' },
+  // Normal
+  { id: 1,  title: 'Normal #1',  category: 'Normal',  desc: 'Story-driven content built for real engagement and brand growth.', color: '#7c3aed', video: 'https://drive.google.com/file/d/1oRXeyFxTcNuYoer1Nt3K418S9Sf_6n_w/preview', thumb: 'https://drive.google.com/thumbnail?id=1oRXeyFxTcNuYoer1Nt3K418S9Sf_6n_w&sz=w800' },
+  { id: 2,  title: 'Normal #2',  category: 'Normal',  desc: 'Authentic content crafted to connect brands with their audience.', color: '#ec4899', video: 'https://drive.google.com/file/d/11T0DtF9O_IfNsx4MqZhgoD5JL5Dn-HDp/preview', thumb: 'https://drive.google.com/thumbnail?id=11T0DtF9O_IfNsx4MqZhgoD5JL5Dn-HDp&sz=w800' },
+  { id: 3,  title: 'Normal #3',  category: 'Normal',  desc: 'High-retention content designed to drive awareness and conversions.', color: '#06b6d4', video: 'https://drive.google.com/file/d/1-YOQ3DNOGKz1TX6R7yk7qqwOfBbBIiSu/preview', thumb: 'https://drive.google.com/thumbnail?id=1-YOQ3DNOGKz1TX6R7yk7qqwOfBbBIiSu&sz=w800' },
+  { id: 4,  title: 'Normal #4',  category: 'Normal',  desc: 'Compelling brand content built for credibility and reach.', color: '#f59e0b', video: 'https://drive.google.com/file/d/1cZcU2Cc39apU_4Hsle8IU3K8h5mtwcNi/preview', thumb: 'https://drive.google.com/thumbnail?id=1cZcU2Cc39apU_4Hsle8IU3K8h5mtwcNi&sz=w800' },
+  { id: 5,  title: 'Normal #5',  category: 'Normal',  desc: 'Short-form content engineered for social media growth and virality.', color: '#10b981', video: 'https://drive.google.com/file/d/1OdWR7H7t24C-FJpL08TZCwSqyjxHVEC3/preview', thumb: 'https://drive.google.com/thumbnail?id=1OdWR7H7t24C-FJpL08TZCwSqyjxHVEC3&sz=w800' },
+  { id: 6,  title: 'Normal #6',  category: 'Normal',  desc: 'Performance-focused content that turns views into real results.', color: '#3b82f6', video: 'https://drive.google.com/file/d/1sSCDpQR9VF56yxKNQUa0ueGGliJjbW2t/preview', thumb: 'https://drive.google.com/thumbnail?id=1sSCDpQR9VF56yxKNQUa0ueGGliJjbW2t&sz=w800' },
+  // Concept
+  { id: 7,  title: 'Concept #1',  category: 'Concept', desc: 'A bold concept piece that pushes creative boundaries for the brand.', color: '#8b5cf6', video: 'https://drive.google.com/file/d/1kugFon92a437FhRgI7TWnKxLPjIYNckn/preview', thumb: 'https://drive.google.com/thumbnail?id=1kugFon92a437FhRgI7TWnKxLPjIYNckn&sz=w800' },
+  { id: 8,  title: 'Concept #2',  category: 'Concept', desc: 'Visually striking concept content built to stop the scroll.', color: '#f59e0b', video: 'https://drive.google.com/file/d/1NEgm8ptwAswFbSVu_nQ92pXEuRmS3SeK/preview', thumb: 'https://drive.google.com/thumbnail?id=1NEgm8ptwAswFbSVu_nQ92pXEuRmS3SeK&sz=w800' },
+  { id: 9,  title: 'Concept #3',  category: 'Concept', desc: 'Creative-first storytelling that makes the brand impossible to ignore.', color: '#06b6d4', video: 'https://drive.google.com/file/d/1wKJGwrnFHLi9WNpwC36-HnIBFC7gfPrt/preview', thumb: 'https://drive.google.com/thumbnail?id=1wKJGwrnFHLi9WNpwC36-HnIBFC7gfPrt&sz=w800' },
+  { id: 10, title: 'Concept #4',  category: 'Concept', desc: 'Concept-driven campaign content designed for maximum brand impact.', color: '#ec4899', video: 'https://drive.google.com/file/d/1uqvUqPeykqTWeujgQgm-W4dzNFLZok2D/preview', thumb: 'https://drive.google.com/thumbnail?id=1uqvUqPeykqTWeujgQgm-W4dzNFLZok2D&sz=w800' },
+  { id: 11, title: 'Concept #5',  category: 'Concept', desc: 'High-concept visual storytelling that elevates brand perception.', color: '#10b981', video: 'https://drive.google.com/file/d/1kxcAXHlm43fNNtxUedAoohbQzCFxb0ED/preview', thumb: 'https://drive.google.com/thumbnail?id=1kxcAXHlm43fNNtxUedAoohbQzCFxb0ED&sz=w800' },
+  { id: 12, title: 'Concept #6',  category: 'Concept', desc: 'A cinematic concept piece crafted to build brand authority.', color: '#7c3aed', video: 'https://drive.google.com/file/d/13OlFWTkfKOQ4mZAZE2C9iBFR_0wclEVc/preview', thumb: 'https://drive.google.com/thumbnail?id=13OlFWTkfKOQ4mZAZE2C9iBFR_0wclEVc&sz=w800' },
+  { id: 13, title: 'Concept #7',  category: 'Concept', desc: 'Story-led concept content that connects emotionally with the audience.', color: '#3b82f6', video: 'https://drive.google.com/file/d/12_1U6dFn6CRomgmd3puzYu8WkzxBMyI4/preview', thumb: 'https://drive.google.com/thumbnail?id=12_1U6dFn6CRomgmd3puzYu8WkzxBMyI4&sz=w800' },
+  { id: 14, title: 'Concept #8',  category: 'Concept', desc: 'Bold creative execution that turns brand ideas into viral moments.', color: '#f59e0b', video: 'https://drive.google.com/file/d/1kZnvJ0qQMtL05Hol_wqIiGNUwA9zHrjl/preview', thumb: 'https://drive.google.com/thumbnail?id=1kZnvJ0qQMtL05Hol_wqIiGNUwA9zHrjl&sz=w800' },
+  { id: 15, title: 'Concept #9',  category: 'Concept', desc: 'Concept-first content strategy that drives both reach and revenue.', color: '#06b6d4', video: 'https://drive.google.com/file/d/1NLzSEVaI4cOhlDhblltHLkHKuV9O9LrW/preview', thumb: 'https://drive.google.com/thumbnail?id=1NLzSEVaI4cOhlDhblltHLkHKuV9O9LrW&sz=w800' },
+  { id: 16, title: 'Concept #10', category: 'Concept', desc: 'Premium concept content built to position the brand as a market leader.', color: '#8b5cf6', video: 'https://drive.google.com/file/d/1qteW6j79orK92S15Eyv-fY5QLIu3cxAM/preview', thumb: 'https://drive.google.com/thumbnail?id=1qteW6j79orK92S15Eyv-fY5QLIu3cxAM&sz=w800' },
 ];
 
-const categories = ['All', 'Talking Head', 'Launch Vids', 'Trailers'];
+const categories = ['All', 'Normal', 'Concept'];
 
 export function renderWorks(container) {
   let activeFilter = 'All';
@@ -21,10 +30,10 @@ export function renderWorks(container) {
 
   function renderGrid() {
     const grid = container.querySelector('.works-grid');
-    grid.classList.toggle('portrait', activeFilter === 'Talking Head');
+    grid.classList.toggle('portrait', activeFilter === 'Normal');
     const filtered = getFiltered();
     grid.innerHTML = filtered.map((p, i) => `
-      <div class="work-card reveal delay-${(i % 4) + 1}" data-id="${p.id}" style="background: linear-gradient(135deg, ${p.color}22, ${p.color}08); ${p.category === 'Talking Head' ? 'aspect-ratio:9/16;' : ''}">
+      <div class="work-card reveal delay-${(i % 4) + 1}" data-id="${p.id}" style="background: linear-gradient(135deg, ${p.color}22, ${p.color}08); ${p.category === 'Normal' ? 'aspect-ratio:9/16;' : ''}">
         ${p.thumb
           ? `<img src="${p.thumb}" class="work-thumb" alt="${p.title}"/>`
           : `<div class="work-thumb-placeholder" style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-size:3rem;opacity:0.15;">🎬</div>`
