@@ -16,72 +16,23 @@ export function renderCredits(container) {
       <p class="section-subtitle reveal delay-2" style="margin: 0 auto;">We don't do fixed packages — every brand is different. Reach out and let's talk about what works for you.</p>
     </section>
 
-    <!-- Packages -->
+    <!-- Services List -->
     <section class="section" style="padding-top: 0;">
-      <div class="packages-grid">
-
-        <!-- ESSENTIAL -->
-        <div class="package-card reveal delay-1">
-          <div class="package-name">Essential</div>
-          <div class="package-tagline">Starter Growth System</div>
-          <p class="package-desc">For brands that want consistent digital presence without full-scale growth ops.</p>
-          <ul class="package-features">
-            <li class="included">Brand story development (foundation)</li>
-            <li class="included">12 short-form content pieces (Reels/Shorts/TikTok)</li>
-            <li class="included">Basic content scheduling</li>
-            <li class="included">Light strategy guidance (monthly call)</li>
-            <li class="included">Basic analytics report (monthly)</li>
-            <li class="included">2 revisions per deliverable</li>
-            <li class="included">Turnaround: 72 hours</li>
-            <li class="not-included">Full account management</li>
-            <li class="not-included">Paid ads management</li>
-            <li class="not-included">Dedicated manager</li>
-          </ul>
-          <a href="https://calendly.com/crownx-enquiry/30min" target="_blank" class="btn btn-secondary" style="width:100%;">Book a Call</a>
-        </div>
-
-        <!-- PREMIUM -->
-        <div class="package-card popular reveal delay-2">
-          <div class="package-badge">Most Popular</div>
-          <div class="package-name">Premium</div>
-          <div class="package-tagline">Growth Engine</div>
-          <p class="package-desc">For brands serious about growing their audience, sales, and digital presence.</p>
-          <ul class="package-features">
-            <li class="included">Full brand story development</li>
-            <li class="included">24 short-form content pieces</li>
-            <li class="included">Paid ads creative (Meta/Google)</li>
-            <li class="included">Platform-specific growth strategy</li>
-            <li class="included">Content calendar + scheduling</li>
-            <li class="included">Bi-weekly strategy calls</li>
-            <li class="included">Advanced analytics + insights</li>
-            <li class="included">Dedicated account manager</li>
-            <li class="included">Unlimited revisions</li>
-            <li class="included">Turnaround: 48 hours</li>
-          </ul>
-          <a href="https://calendly.com/crownx-enquiry/30min" target="_blank" class="btn btn-primary" style="width:100%;">Book a Call</a>
-        </div>
-
-        <!-- GOLD -->
-        <div class="package-card reveal delay-3">
-          <div class="package-name">Gold</div>
-          <div class="package-tagline">Full Brand Growth System</div>
-          <p class="package-desc">For founders and brands who want end-to-end digital marketing domination — story, content, ads, and sales.</p>
-          <ul class="package-features">
-            <li class="included">Complete brand story + positioning</li>
-            <li class="included">40+ content pieces across platforms</li>
-            <li class="included">Full paid ads management (Meta, Google, TikTok)</li>
-            <li class="included">Full content + distribution system (5 platforms)</li>
-            <li class="included">Posting + platform management</li>
-            <li class="included">Deep analytics + performance optimization</li>
-            <li class="included">Sales funnel strategy + execution</li>
-            <li class="included">Dedicated account manager + priority support</li>
-            <li class="included">Weekly strategy calls</li>
-            <li class="included">Unlimited revisions</li>
-            <li class="included">Turnaround: 24–36 hours</li>
-          </ul>
-          <a href="https://calendly.com/crownx-enquiry/30min" target="_blank" class="btn btn-secondary" style="width:100%;">Book a Call</a>
-        </div>
-
+      <div class="services-list reveal">
+        <div class="service-item">Brand Story Development</div>
+        <div class="service-item">Short-Form Content (Reels / Shorts / TikTok)</div>
+        <div class="service-item">Paid Ads Creative (Meta / Google / TikTok)</div>
+        <div class="service-item">Content Calendar & Scheduling</div>
+        <div class="service-item">Platform-Specific Growth Strategy</div>
+        <div class="service-item">Full Account Management</div>
+        <div class="service-item">Advanced Analytics & Insights</div>
+        <div class="service-item">Sales Funnel Strategy & Execution</div>
+        <div class="service-item">Brand Positioning & Identity</div>
+        <div class="service-item">Multi-Platform Distribution</div>
+        <div class="service-item">Influencer & Creator Partnerships</div>
+        <div class="service-item">Video Production & Editing</div>
+        <div class="service-item">Dedicated Account Manager</div>
+        <div class="service-item">Performance Optimization</div>
       </div>
     </section>
 
