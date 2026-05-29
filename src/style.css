@@ -513,7 +513,39 @@ body:has(.btn:hover, a:hover, button:hover) .cursor-ring {
   color: rgba(240,237,241,0.4);
 }
 
-/* ===== QUICK CARDS ===== */
+/* ===== CONTACT STRIP ===== */
+.contact-strip {
+  display: flex; align-items: center; justify-content: space-between;
+  flex-wrap: wrap; gap: 40px;
+  padding: 52px 60px; border-radius: 2rem;
+  background: linear-gradient(135deg, rgba(116,86,255,0.12) 0%, rgba(175,162,255,0.06) 100%);
+  border: 1px solid rgba(175,162,255,0.15);
+}
+.contact-strip-heading {
+  font-family: var(--font-headline);
+  font-size: clamp(1.5rem, 3vw, 2.2rem);
+  font-weight: 800; letter-spacing: -0.03em; line-height: 1.2;
+  color: var(--on-surface);
+}
+.contact-strip-numbers {
+  display: flex; flex-direction: column; gap: 16px; align-items: flex-end;
+}
+.contact-number {
+  font-family: var(--font-headline);
+  font-size: clamp(1.8rem, 3.5vw, 2.8rem);
+  font-weight: 900; letter-spacing: -0.03em;
+  color: var(--primary);
+  transition: color 0.3s, transform 0.3s;
+  display: inline-block;
+}
+.contact-number:hover { color: #fff; transform: translateX(4px); }
+@media (max-width: 768px) {
+  .contact-strip { flex-direction: column; align-items: flex-start; padding: 36px 28px; gap: 28px; }
+  .contact-strip-numbers { align-items: flex-start; }
+  .contact-number { font-size: clamp(1.5rem, 7vw, 2rem); }
+}
+
+
 .quick-cards {
   display: grid; grid-template-columns: 1fr 1fr; gap: 24px;
   max-width: 900px; margin: 0 auto;

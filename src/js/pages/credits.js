@@ -12,8 +12,8 @@ export function renderCredits(container) {
     <!-- Credit Hero -->
     <section class="section credits-hero">
       <div class="section-label reveal">✦ Pricing</div>
-      <h2 class="section-title reveal delay-1">Simple, transparent<br/><span class="gradient-text">pricing</span></h2>
-      <p class="section-subtitle reveal delay-2" style="margin: 0 auto;">Choose the plan that fits your growth stage. Every plan includes a strategy call so we understand your brand before we build your story.</p>
+      <h2 class="section-title reveal delay-1">Let's build something<br/><span class="gradient-text">great together</span></h2>
+      <p class="section-subtitle reveal delay-2" style="margin: 0 auto;">We don't do fixed packages — every brand is different. Reach out and let's talk about what works for you.</p>
     </section>
 
     <!-- Packages -->
@@ -24,7 +24,6 @@ export function renderCredits(container) {
         <div class="package-card reveal delay-1">
           <div class="package-name">Essential</div>
           <div class="package-tagline">Starter Growth System</div>
-          <div class="package-price">$799 <span>/ month</span></div>
           <p class="package-desc">For brands that want consistent digital presence without full-scale growth ops.</p>
           <ul class="package-features">
             <li class="included">Brand story development (foundation)</li>
@@ -38,7 +37,7 @@ export function renderCredits(container) {
             <li class="not-included">Paid ads management</li>
             <li class="not-included">Dedicated manager</li>
           </ul>
-          <a href="https://calendly.com/crownx-enquiry/30min" target="_blank" class="btn btn-secondary" style="width:100%;">Get Started</a>
+          <a href="https://calendly.com/crownx-enquiry/30min" target="_blank" class="btn btn-secondary" style="width:100%;">Book a Call</a>
         </div>
 
         <!-- PREMIUM -->
@@ -46,7 +45,6 @@ export function renderCredits(container) {
           <div class="package-badge">Most Popular</div>
           <div class="package-name">Premium</div>
           <div class="package-tagline">Growth Engine</div>
-          <div class="package-price">$1,199 <span>/ month</span></div>
           <p class="package-desc">For brands serious about growing their audience, sales, and digital presence.</p>
           <ul class="package-features">
             <li class="included">Full brand story development</li>
@@ -60,14 +58,13 @@ export function renderCredits(container) {
             <li class="included">Unlimited revisions</li>
             <li class="included">Turnaround: 48 hours</li>
           </ul>
-          <a href="https://calendly.com/crownx-enquiry/30min" target="_blank" class="btn btn-primary" style="width:100%;">Get Started</a>
+          <a href="https://calendly.com/crownx-enquiry/30min" target="_blank" class="btn btn-primary" style="width:100%;">Book a Call</a>
         </div>
 
         <!-- GOLD -->
         <div class="package-card reveal delay-3">
           <div class="package-name">Gold</div>
           <div class="package-tagline">Full Brand Growth System</div>
-          <div class="package-price">$1,999 <span>/ month</span></div>
           <p class="package-desc">For founders and brands who want end-to-end digital marketing domination — story, content, ads, and sales.</p>
           <ul class="package-features">
             <li class="included">Complete brand story + positioning</li>
@@ -82,9 +79,23 @@ export function renderCredits(container) {
             <li class="included">Unlimited revisions</li>
             <li class="included">Turnaround: 24–36 hours</li>
           </ul>
-          <a href="https://calendly.com/crownx-enquiry/30min" target="_blank" class="btn btn-secondary" style="width:100%;">Get Started</a>
+          <a href="https://calendly.com/crownx-enquiry/30min" target="_blank" class="btn btn-secondary" style="width:100%;">Book a Call</a>
         </div>
 
+      </div>
+    </section>
+
+    <!-- Contact Strip -->
+    <section class="section" style="padding-top: 0; padding-bottom: 80px;">
+      <div class="contact-strip reveal">
+        <div class="contact-strip-text">
+          <div class="section-label" style="margin-bottom:12px;">✦ Get in Touch</div>
+          <h3 class="contact-strip-heading">Not sure where to start?<br/>Just give us a call.</h3>
+        </div>
+        <div class="contact-strip-numbers">
+          <a href="tel:7339223955" class="contact-number">+91 73392 23955</a>
+          <a href="tel:7845142572" class="contact-number">+91 78451 42572</a>
+        </div>
       </div>
     </section>
 
@@ -95,17 +106,17 @@ export function renderCredits(container) {
           <div class="quick-icon">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><rect x="2" y="7" width="15" height="10" rx="2"/><path d="M17 9l5-2v10l-5-2"/></svg>
           </div>
-          <h3 class="quick-title">One-off Campaign <span style="text-decoration:line-through; color:var(--on-surface-variant); font-weight:400;">($199)</span><br/>Try for just <span class="gradient-text">$49.99</span></h3>
-          <p class="quick-desc">Not sure about the subscription? Start with one campaign.</p>
-          <a href="https://calendly.com/crownx-enquiry/30min" target="_blank" class="btn btn-secondary" style="width:100%; margin-top: auto;">Get your first video</a>
+          <h3 class="quick-title">Want to see what we can do?</h3>
+          <p class="quick-desc">Let's hop on a quick call and figure out what your brand needs.</p>
+          <a href="https://calendly.com/crownx-enquiry/30min" target="_blank" class="btn btn-secondary" style="width:100%; margin-top: auto;">Book a Call</a>
         </div>
         <div class="quick-card">
           <div class="quick-icon">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.22 1.18 2 2 0 012.18 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.72 6.72l1.06-1.06a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
           </div>
-          <h3 class="quick-title">Book a call</h3>
-          <p class="quick-desc">Learn more about how CrownX builds your brand story.</p>
-          <a href="https://calendly.com/crownx-enquiry/30min" target="_blank" class="btn btn-secondary" style="width:100%; margin-top: auto;">Book a call</a>
+          <h3 class="quick-title">Contact us directly</h3>
+          <p class="quick-desc">Reach out and we'll get back to you within 24 hours.</p>
+          <a href="tel:7339223955" class="btn btn-secondary" style="width:100%; margin-top: auto;">Call Now</a>
         </div>
       </div>
     </section>
